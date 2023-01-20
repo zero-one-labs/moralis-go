@@ -1,8 +1,8 @@
 package moralis
 
 import (
-	"github.com/zero-one-labs/moralis-go-sdk/moralis/evm"
-	"github.com/zero-one-labs/moralis-go-sdk/moralis/solana"
+	"github.com/zero-one-labs/moralis-go/moralis/evm"
+	"github.com/zero-one-labs/moralis-go/moralis/solana"
 )
 
 func NewEVM(apiKey string) *evm.MoralisAPI {

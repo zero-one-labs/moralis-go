@@ -1,4 +1,4 @@
-# Moralis Go SDK
+# Moralis Go
 
 A Go wrapper for [Moralis Web3 APIs](https://docs.moralis.io/reference/introduction)
 

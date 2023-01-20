@@ -9,7 +9,7 @@ You need to get an API key from [Moralis](https://moralis.io)
 ### Add the module to your go project
 
 ```sh
-GOPRIVATE=github.com/zero-one-labs go get github.com/zero-one-labs/moralis-go-sdk/moralis
+go get github.com/zero-one-labs/moralis-go/moralis
 ```
 
 ### Sample Code
@@ -20,7 +20,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/zero-one-labs/moralis-go-sdk/moralis"
+	"github.com/zero-one-labs/moralis-go/moralis"
 )
 
 const MORALIS_API_KEY = "YOUR_MORALIS_API_KEY"

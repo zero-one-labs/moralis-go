@@ -87,6 +87,9 @@ func (m *MoralisAPI) TokenBalance(walletAddress string, tokenAddress string, cha
 }
 
 type WalletNFTsResponse struct {
+	// Total is always null after the Moralis API change starting February 1st 2023
+	// Unless the disable_total param is set to false
+	// Ref: https://docs.moralis.io/changelog/disable-total-set-to-true
 	Total    int64  `json:"total"`
 	Page     int64  `json:"page"`
 	PageSize int64  `json:"page_size"`
